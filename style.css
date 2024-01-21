@@ -12,20 +12,22 @@ header {
 }
 
 header nav {
-  width: clamp(32rem, 24.162vw, 50vw);
+  width: 45%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
-  width: 100%;
 } 
 
 header ul li a {
+  width: clamp(7rem, 7vw, 10vw);
+  display: block;
+  text-align: center;
   font-family: "firaGo";
   font-weight: 400;
   color: var(--color-white);
-  font-size: clamp(1.4rem, .7vw, 4.3rem);
+  font-size: clamp(1.2rem, .9vw, 4.3rem);
   transition: all 0.4s ease;
 }
 

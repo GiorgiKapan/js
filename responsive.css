@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1000px) {
+    :root {
+        --component-padding: 0 10vw;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    :root {
+        --component-padding: 0 7vw;
+    }
+    
+    body {
+        header nav {
+            width: unset;
+        }
+    }
+}
