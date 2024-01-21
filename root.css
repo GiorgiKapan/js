@@ -1,3 +1,14 @@
 :root {
-    --header-nav-max-size: 
+    /* lower index indicates darker tone of the same color */
+    --color-white: #f4f4f4;
+    --color-blue1: #0da3e0;
+    --color-blue2: #00aef3;
+    --color-blue3: #0da3e0;
+    --color-gray3: #161616;
+    --color-gray2: #1a1e1f;
+    --color-gray1: #2b2b2b;
+}
+
+:root {
+    --component-padding: 0 23.6%;
 }
