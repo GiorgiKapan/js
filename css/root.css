@@ -12,6 +12,7 @@
 :root {
     --component-padding: 0 18vw;
     --header-height: 9vh;
+    --font-firago: 'FiraGO';
 }
 
 /* header burger */
