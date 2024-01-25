@@ -33,9 +33,54 @@ header ul li a:hover {
   color: var(--color-blue1);
 }
 
-body section {
-  width: 100%;
-  height: 100vh;
-  background-image: url('/assets/sd.jpg');
+body section:nth-child(2){
+  height: 37vh;
+  background-image: url('/assets/tbc-meeting.jpg');
   background-repeat: no-repeat;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: var(--component-padding);
 }
+
+body section:nth-child(2) h1{
+  font-size: clamp(1.6rem, 2.2vw, 5vw);
+  color: var(--color-white);
+  margin-bottom: 3rem;
+  font-weight: 800;
+}
+
+body section:nth-child(2) h2{
+  font-size: clamp(1.4rem, 2vw, 5vw);
+  color: var(--color-white);
+  font-weight: 800;
+}
+
+body section:nth-child(3){
+  background-color: var(--color-gray1);
+  height: 49vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: var(--component-padding);
+}
+
+body section:nth-child(3) article{
+  font-size: clamp(1.2rem, 1.5vw, 3.6vw);
+  color: var(--color-white);
+  line-height: 1.6em;
+}
+
+body section:nth-child(3) a{
+  font-size: clamp(1rem, 1vw, 3.2vw);
+  font-weight: 600;
+  color: var(--color-blue1);
+  margin-top: 5.7rem;
+  transition: all .4s ease;
+}
+
+body section:nth-child(3) a:hover{
+  color: #AAAAAA;
+}
+
