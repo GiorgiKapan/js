@@ -11,4 +11,12 @@
 
 :root {
     --component-padding: 0 18vw;
+    --header-height: 9vh;
+}
+
+/* header burger */
+:root {
+    --burger-width: 25px;
+    --burger-height: 15px;
+    --burger-line-height: 2px;
 }
