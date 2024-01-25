@@ -15,3 +15,33 @@
         }
     }
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      header nav {
+        display: none;
+      }
+  
+      header .nav-responsive {
+        display: block;
+        background-color: var(--color-gray2);
+        width: 100%;
+        position: absolute;
+        right: 0%;
+        padding: var(--component-padding) 0;
+        top: var(--header-height);
+      }
+  
+      header .nav-responsive ul {
+        flex-flow: column;
+        align-items: flex-end;
+      }
+  
+      header .nav-responsive ul li a {
+        width: 100%;
+        text-align: end;
+        margin: 10px 0;
+        font-size: 16px;
+      }
+    }
+  }
