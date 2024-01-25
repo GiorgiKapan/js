@@ -36,7 +36,9 @@ header ul li a:hover {
 
 body section {
   width: 100%;
-  height: 100vh;
+  height: 352px;
   background-image: url('/assets/sd.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
